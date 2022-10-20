@@ -1,0 +1,49 @@
+body {
+  background: white;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.flex-gap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bigger {
+  font-size: 4vh;
+}
+
+.less_bigger {
+  font-size: 2.5vh;
+}
+
+b, tr {
+  color: #2E3192;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2vh;
+}
+
+p, a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2vh;
+}
+
+a:link, a:hover, a:active {
+  color: #2E3192 !important;
+}
+
+a:visited {
+  color: red;
+}
